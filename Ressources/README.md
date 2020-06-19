@@ -1,21 +1,23 @@
 # Ressources
 
-## Ressources vidéos
+## Flexbox
 
-Insérer ici les liens des ressources vidéos nécessaires à la réalisation de l'exercice
+* [w3school - flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+* [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-### Titre de l'exercice
+## Markdown
 
-Lien vers la/les vidéo associée(s)
+* [un peu d'histoire](https://en.wikipedia.org/wiki/Markdown)
+* [markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Ressources audio
+### Plugins VSCode
 
-### Titre de l'exercice
+[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+Lorsque vous aurez besoin d'écrire des Readme pour vos repository, ce plugin vous permettra d'afficher une prévisualisation en direct de votre document avec le style de Github, vous pourrez vérifier si votre contenu s'affiche correctement.
 
-Lien vers le/les podcast associé(s)
+[Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji) permet d'ajouter le support des emojis dans la prévisualisation.
 
-## Ressources bibliographiques
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) ajoute des tas de fonctionnalités pour mieux rédiger vos documents. Il peut par exemple faire vos listes automatiquement quand vous passez à la ligne suivante, il vous aide à insérer des images et des liens plus facilement,... bref, si vous avez beaucoup de rédaction en MD a faire c'est un incontournable.
 
-### Titre de l'exercice
+[Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) ajoute des aides visuels pour vous aidez à respecter les conventions d'écritures du MD.
 
-Lien vers les articles / livres associés

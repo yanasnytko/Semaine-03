@@ -2,9 +2,12 @@
 
 ## HTML & CSS
 
-WIP
+Cette semaine on va passer un peu de temps sur le positionnement de vos éléments en CSS. Nous allons voir ensemble la théorie de Flexbox et Grid. Il y aura ensuite quelques exercices pour vous entraîner à utiliser ces deux méthodes.
 
-* [Le Markdown](theorie-markdown.md)
-* Revoir le positionnement
-* Créer exercices Flexbox et position (apprendre a mettre en couleurs ses div pour mieux les gérer)
-* grid
+Mais tout d'abord un petit aparté sur le Markdown.
+
+1. [Le Markdown](theorie-markdown.md)
+2. [Flexbox](theorie-flexbox.md)
+3. [Grid](theorie-grid.md)
+
+N'hésite pas à consulter les [ressources](Ressources/README.md)
