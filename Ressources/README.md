@@ -1,14 +1,20 @@
 # Ressources
 
+## Markdown
+
+* [un peu d'histoire](https://en.wikipedia.org/wiki/Markdown)
+* [markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
 ## Flexbox
 
 * [w3school - flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 * [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## Markdown
+## Grid
 
-* [un peu d'histoire](https://en.wikipedia.org/wiki/Markdown)
-* [markdown syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Layoutit!](https://grid.layoutit.com/) Permet de créer ses grilles en ligne.
+* [Complete guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid)
+
 
 ### Plugins VSCode
 

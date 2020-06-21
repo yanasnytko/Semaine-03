@@ -11,3 +11,5 @@ Mais tout d'abord un petit aparté sur le Markdown.
 3. [Grid](theorie-grid.md)
 
 N'hésite pas à consulter les [ressources](Ressources/README.md)
+
+Et voici les [exercices](Exercices/exercices-html-css.md)
