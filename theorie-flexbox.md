@@ -1,8 +1,8 @@
 # Flexbox
 
-## A quoi ça sert
+## Introduction
 
-Pour le moment on a vu que l'on a des éléments de type block et inline pour de la mise en page. On a également vu les tableaux mais ça ne sert pas à mettre un site en page, encore moins un site responsive. Vient alors à la rescousse: Flexbox!
+Pour le moment on a vu que l'on a des éléments de type block et inline, on utilise float pour de la mise en page. On a également vu les tableaux mais ça ne sert pas à mettre un site en page, encore moins un site responsive. Vient alors à la rescousse: Flexbox!
 
 Flexbox permet d'avoir du contenu qui s'adapte, qui est flexible, en fonction de la taille de la page et des containers.
 
@@ -212,11 +212,14 @@ Permet de déterminer l'alignement d'un élément dans le container. Cette propr
 
 ## Allez on se détend avec un petit jeu
 
-Essayez de compléter un max d'exercice sur ce petit jeu ça t'aidera a encore mieux visualiser les différentes propriétés liés à Flexbox.
+Essayez de compléter un max d'exercice sur ce petit jeu ça vous aidera a encore mieux visualiser les différentes propriétés liés à Flexbox.
 
 [Flexbox Froggy](https://flexboxfroggy.com/#fr)
 
 ## Quelques liens utiles
 
 [Build with Flexbox](http://flexbox.buildwithreact.com/)
+
+[Complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 
