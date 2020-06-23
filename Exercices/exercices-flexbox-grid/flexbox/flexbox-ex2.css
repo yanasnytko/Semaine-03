@@ -1,18 +1,54 @@
 /* CSS SETUP START – ne rien modifier ici, éditez plus bas */
-body { margin: 0; padding: 0; border: 0; }
-section { min-height: 100vh; }
-div { background-color: #073b4c; }
-div:nth-of-type(5n+1) { background-color: #ef476f; }
-div:nth-of-type(5n+2) { background-color: #ffd166; }
-div:nth-of-type(5n+3) { background-color: #06d6a0; }
-div:nth-of-type(5n+4) { background-color: #118ab2; }
-span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: block; font-size: 48px; height: auto; line-height: 3em; text-align: center; width: 3em; }
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+section {
+  min-height: 100vh;
+}
+div {
+  background-color: #073b4c;
+}
+div:nth-of-type(5n + 1) {
+  background-color: #ef476f;
+}
+div:nth-of-type(5n + 2) {
+  background-color: #ffd166;
+}
+div:nth-of-type(5n + 3) {
+  background-color: #06d6a0;
+}
+div:nth-of-type(5n + 4) {
+  background-color: #118ab2;
+}
+span {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: block;
+  font-size: 48px;
+  height: auto;
+  line-height: 3em;
+  text-align: center;
+  width: 3em;
+}
 /* CSS SETUP END */
 
 /* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
 
 /* EXERCICE 2 */
 /* Vous aurez besoin du pseudo-sélecteur "last-child". Faites une petite recherche Google. */
-section{
-  display:block;
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+div {
+  display: flex;
+  height: 300px;
+  width: 22%;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
 }

@@ -3,36 +3,6 @@
 
 // Test 1
 /*
-let firstNumber = parseInt(
-  document.getElementsByName('first-number').value,
-  10
-);
-let secondNumber = parseInt(
-  document.getElementsByName('second-number').value,
-  10
-);
-function additionOnClick() {
-  document
-    .getElementById('addition')
-    .addEventListener('click', function addition() {
-      console.log(firstNumber + secondNumber);
-    });
-} */
-
-// Test 2
-/*
-function additionOnClick() {
-  document
-    .getElementById('addition')
-    .addEventListener('click', function addition() {
-      let firstNumber = parseInt(document.getElementsByName('first-number').value, 10);
-      let secondNumber = parseInt(document.getElementsByName('second-number').value, 10);
-      console.log(firstNumber + secondNumber);
-    });
-} */
-
-// Test 3
-/*
 function additionOnClick() {
   document
     .getElementById('addition')
@@ -43,7 +13,7 @@ function additionOnClick() {
     });
 } */
 
-// Test 4
+// Test 2
 
 function additionOnClick() {
   document

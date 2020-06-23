@@ -30,7 +30,9 @@ Revoici l'exercice qu'on a vu pendant la théorie. Essayez de le finir pour la f
 
 Éditez la ligne suivante pour indiquez où vous en êtes arrivé
 
-Je suis arrivé au niveau **01/28**
+Je suis arrivé au niveau **28/28**
+
+![Niveau de l'exercice Flexbox Froggy](gridGarden.JPG)
 
 ### Tes propres Grids
 
