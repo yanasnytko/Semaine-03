@@ -1,0 +1,15 @@
+/* CSS SETUP START – ne rien modifier ici, éditez plus bas */
+body { margin: 0; padding: 0; border: 0; }
+.container { font-family: arial; color:#FFF;}
+header, nav, section, aside, footer{ display:flex; justify-content:center; align-items:center; padding:10px;}
+header { background-color: #ef476f; }
+nav { background-color: #ffd166; }
+section { background-color: #06d6a0; }
+aside { background-color: #118ab2; }
+footer { background-color: #073b4c; }
+/* CSS SETUP END */
+
+/* EXERCICE 2 */
+.container {
+  display: block;
+}

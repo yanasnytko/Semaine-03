@@ -214,7 +214,7 @@ Fonctionne comme *grid-column* mais pour les rangées.
 
 #### grid-area
 
-Permet de définir **grid-column-start**, **grid-column-end**, **grid-row-start** et **grid-row-end** en une seule ligne.
+Permet de définir **grid-row-start**, **grid-column-start**, **grid-row-end** et **grid-column-end** en une seule ligne.
 
 ```css
 .grid-item1{
