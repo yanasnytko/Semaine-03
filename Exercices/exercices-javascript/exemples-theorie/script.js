@@ -4,53 +4,62 @@
 console.log("Hello" + " " + whatsYourName); */
 
 //Exemple boucles
-function cycleSolaire(param){
-      let iterations= param;
+function cycleSolaire(param) {
+  let iterations = param;
 
-      //Exemple for
+  //Exemple for
 
-/*     for(interations = 0; iterations <= 365; iterations++){
+  /*     for(interations = 0; iterations <= 365; iterations++){
         console.log("Une nouvelle journée s'achève");
         if(iterations === 365){
             console.log("Une révolution de la terre autour du soleil vient d'être faite")
         }
     } */
 
-    // Exemple do...while
+  // Exemple do...while
 
-
-/* do {
+  /* do {
     console.log("Une nouvelle journée s'achève");
     iterations++;
     if(iterations === 365){
         console.log("Une révolution de la terre autour du soleil vient d'être accomplie")
-    } 
+    }
 } while (iterations <= 365); */
 
-    //Exemple while
+  //Exemple while
 
-/*  while (iterations <= 365){
+  /*  while (iterations <= 365){
     console.log("Une nouvelle journée s'achève");
     iterations++;
     if(iterations === 365){
         console.log("Une révolution de la terre autour du soleil vient d'être accomplie")
     }}  */
-}; 
+}
+
 //Lancer la fonction cycleSolaire:
 
 /* cycleSolaire(0); */
 
 //Exemple forEach
 
-let siriusTeamArray = ["Jeremy", "Christophe", "Julie", "David", "Laetitia", "Vincent", "Gregory"];
+let siriusTeamArray = [
+  'Jeremy',
+  'Christophe',
+  'Julie',
+  'David',
+  'Laetitia',
+  'Vincent',
+  'Gregory',
+];
 let newTeamArray = [];
+
 /* function newTeamFunction(){
     siriusTeamArray.forEach(element =>
                             //console.log("Salut " + `${element}`)
                             {
                              newTeamArray.push("salut"+ ' ' + element)
                             }
-                            
+
     );
     console.log(newTeamArray)
 
@@ -58,8 +67,8 @@ let newTeamArray = [];
 newTeamFunction(); */
 
 /* const myFunction = () => {
-    console.log("salut");
-}
+  console.log('salut');
+};
 myFunction(); */
 
 //Exemple pop();
@@ -69,7 +78,7 @@ myFunction(); */
 
 //Exemple shift();
 
-/* console.log(siriusTeamArray.shift()); 
+/* console.log(siriusTeamArray.shift());
 console.log(siriusTeamArray); */
 
 //Exemple push();

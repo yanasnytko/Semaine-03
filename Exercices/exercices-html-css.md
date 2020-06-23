@@ -14,7 +14,7 @@ Revoici l'exercice qu'on a vu pendant la théorie. Essayez de le finir pour la f
 
 Je suis arrivé au niveau **24/24**
 
-![Niveau de l'exrcice Flexbox Froggy](flexboxFroggy.jpg)
+![Niveau de l'exercice Flexbox Froggy](flexboxFroggy.JPG)
 
 ### Tes propres Flexbox
 
