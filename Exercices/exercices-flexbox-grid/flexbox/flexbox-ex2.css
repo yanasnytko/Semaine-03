@@ -34,21 +34,21 @@ span {
 }
 /* CSS SETUP END */
 
-/* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
-
 /* EXERCICE 2 */
 /* Vous aurez besoin du pseudo-sélecteur "last-child". Faites une petite recherche Google. */
 section {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
+  flex-flow: column wrap;
+  height: 1000px;
 }
 div {
   display: flex;
-  height: 300px;
-  width: 22%;
+  height: 230px;
+  width: 30%;
   justify-content: center;
   align-items: center;
-  margin: 1em;
+  margin: 10px;
+}
+div:last-child {
+  height: 100%;
 }

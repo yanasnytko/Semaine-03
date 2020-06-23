@@ -1,15 +1,46 @@
 /* CSS SETUP START – ne rien modifier ici, éditez plus bas */
-body { margin: 0; padding: 0; border: 0; }
-.container { font-family: arial; color:#FFF;}
-header, nav, section, aside, footer{ display:flex; justify-content:center; align-items:center; padding:10px;}
-header { background-color: #ef476f; }
-nav { background-color: #ffd166; }
-section { background-color: #06d6a0; }
-aside { background-color: #118ab2; }
-footer { background-color: #073b4c; }
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container {
+  font-family: arial;
+  color: #fff;
+}
+header,
+nav,
+section,
+aside,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+header {
+  background-color: #ef476f;
+}
+nav {
+  background-color: #ffd166;
+}
+section {
+  background-color: #06d6a0;
+}
+aside {
+  background-color: #118ab2;
+}
+footer {
+  background-color: #073b4c;
+}
 /* CSS SETUP END */
 
 /* EXERCICE 3 */
 .container {
-  display: block;
+  display: grid;
+  grid-template: [row1-start] 'header header header' 40px [row1-end row2-start] 'nav section aside' 300px [row2-end row3-start] 'footer footer footer' 40px [row3-end] / 1fr 5fr 1fr;
+}
+header,
+footer {
+  grid-column: 1 / span 3;
 }

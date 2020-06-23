@@ -1,16 +1,53 @@
 /* CSS SETUP START – ne rien modifier ici, éditez plus bas */
-body { border: 0; margin: 0; padding: 0; }
-header { background-color: #ef476f; line-height: 80px; }
-nav { background-color: #ffd166; }
-article { background-color: #06d6a0; }
-footer { background-color: #118ab2; }
-header, nav, article, footer { color: white; padding: 10px; }
-header, footer { height: 80px; text-align: center; }
-h1, p { color: white; margin: 0 0 15px 0; }
-nav a { border-bottom: 1px solid rgba(255,255,255,.3); color: white; display: block; line-height: 40px; text-decoration: none; }
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ef476f;
+  line-height: 80px;
+}
+nav {
+  background-color: #ffd166;
+}
+article {
+  background-color: #06d6a0;
+}
+footer {
+  background-color: #118ab2;
+}
+header,
+nav,
+article,
+footer {
+  color: white;
+  padding: 10px;
+}
+header,
+footer {
+  height: 80px;
+  text-align: center;
+}
+h1,
+p {
+  color: white;
+  margin: 0 0 15px 0;
+}
+nav a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+}
 /* CSS SETUP END */
 
-/* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
-
 /* EXERCICE 4 */
-
+main {
+  display: flex;
+  height: 521px;
+}
+main nav {
+  width: 20%;
+}
